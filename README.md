@@ -8,14 +8,14 @@ e reutilização de templates HTML
 ![alt text](https://raw.githubusercontent.com/skatesham/site-flask/master/app/static/img/readme/estrutura.png)
 
 ## Criando e executando um ambiente virtual Python 3 em Unix Dist
-Na raiz do repositório execute os comandos
+Na raiz do repositório execute os comandos (diretório "site-flask")
 ```
 $ python3 -m venv env
 $ source env/bin/activate
 ```
 
 ## Configurando e executando o Flask
-Com o ambiente virtual executado, na raiz do repositório execute os comandos
+Com o ambiente virtual executado, na raiz do repositório execute os comandos (diretório "site-flask")
 ```
 $ pip3 install -r requirements.txt
 $ export FLASK_APP=run.py
