@@ -1,0 +1,67 @@
+
+{% extends "base.html" %}
+
+{% block title %}Sobre{% endblock %}
+
+<!-- Fonte de  https://imasters.com.br/back-end/flask-x-django-como-escolher-o-framework-correto-para-seu-aplicativo-web-->
+{% block body %}
+<div class="jumbotron">
+  <h1>Sobre o Flask</h1>
+  <p class="lead">O Flask é um web framework de código
+    aberto lançado em 2010 amplamente utilizado para Python.
+    Seu funcionamento é semelhante a um conjunto de Lego,
+    onde os desenvolvedores podem construir o que quiserem,
+    tornando o Flask fácil de entender e usar.</p>
+    <p>Postado em: 10 abr, 2018</p>
+</div>
+<br>
+<div class="card">
+  <div class="card-header bg-success">
+    <b>Velocidade</b>
+  </div>
+  <div class="card-body">
+    <p class="card-text">Embora a velocidade não tenha sido
+      muito considerada durante a fase de desenvolvimento
+      do Flask, para o usuário, é uma característica fundamental.
+      O Flask segue uma abordagem de design minimalista e, portanto,
+      tem um desempenho mais rápido em relação ao Django.
+      Ele pode suportar centenas de consultas por segundo sem
+      nenhum impacto negativo.</p>
+  </div>
+</div>
+<br>
+<div class="card">
+  <div class="card-header bg-info">
+    <b>Simplicidade</b>
+  </div>
+  <div class="card-body">
+    <p class="card-text">Devido ao fato de ser minimalista, o Flask fornece
+      ao desenvolvedor os recursos necessários para criar um protótipo para
+      sua aplicação web facilmente. Ele oferece aos desenvolvedores controle
+      e flexibilidade para o desenvolvimento. Existem vários templates
+      disponíveis com a biblioteca de linguagem padrão Jinja2.
+      Além disso, o aplicativo vem com a biblioteca WSGI toolkit
+      e um servidor web embutido para que você não precise depender
+      de servidores externos, como o Apache, para testar seu aplicativo.</p>
+  </div>
+</div>
+<br>
+<div class="card">
+  <div class="card-header bg-warning">
+    <b>Facilidade de integração com banco de dados</b>
+  </div>
+  <div class="card-body">
+    <p class="card-text">Ao contrário de outros web frameworks,
+      o Flask não tem uma camada adicional de acesso ao banco de dados
+      nem depende do ORM (Object-Relational Mapping). Como resultado,
+      a integração com toolkits de banco de dados como SQLAlchemy, NoSQL,
+      MongoDB e DynamoDB é bem fácil.</p>
+  </div>
+</div>
+<br>
+<a class="m-2 bg-light" href="https://imasters.com.br/back-end/flask-x-django-como-escolher-o-framework-correto-para-seu-aplicativo-web">Fonte das informações</a>
+<br>
+<br>
+<br>
+<br>
+{% endblock %}
